@@ -1,13 +1,15 @@
 if(location.href.substring(location.origin.length+location.pathname.length)=='EDT'){
-   theme='Embarrassed-Dark-Theme'
+   theme='Embarrassed-Dark-Theme';
 }else if(location.href.substring(location.origin.length+location.pathname.length)=='ELT'){
-   theme='Embarrassed-Light-Theme'
+   theme='Embarrassed-Light-Theme';
 }else if(location.href.substring(location.origin.length+location.pathname.length)=='VSL'){
-   theme='vs-light'
+   theme='vs-light';
 }else if(location.href.substring(location.origin.length+location.pathname.length)=='VSD'){
-   theme='vs-dark'
+   theme='vs-dark';
 }else if(location.href.substring(location.origin.length+location.pathname.length)=='HCD'){
-   theme='hc-dark'
+   theme='hc-dark';
+}else{
+   theme='vs-dark';
 }
 require.config({
     paths: {
