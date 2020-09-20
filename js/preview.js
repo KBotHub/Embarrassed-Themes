@@ -1,3 +1,4 @@
+document.getElementById("monaco_container").style.display = "none";
 if(location.href.substring(location.origin.length+location.pathname.length)=='EDT'){
    theme='Embarrassed-Dark-Theme';
 }else if(location.href.substring(location.origin.length+location.pathname.length)=='ELT'){
@@ -192,3 +193,4 @@ require(['vs/editor/editor.main'], function() {
     }, 'DEFAULT-JS');
     editor.focus();
 });
+$("#monaco_container").fadeIn()
