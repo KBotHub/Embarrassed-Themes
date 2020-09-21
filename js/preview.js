@@ -222,5 +222,5 @@ require(['vs/editor/editor.main'], function() {
         ].join('\n'))
     }, 'DEFAULT-JS');
     editor.focus();
+    $("#monaco_container").fadeIn();
 });
-$("#monaco_container").fadeIn()
