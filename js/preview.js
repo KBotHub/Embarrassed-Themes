@@ -1,13 +1,13 @@
 document.getElementById("monaco_container").style.display = "none";
-if(location.href.substring(location.origin.length+location.pathname.length)=='EDT'){
+if(location.href.substring(location.origin.length+location.pathname.length)=='#EDT'){
    theme='Embarrassed-Dark-Theme';
-}else if(location.href.substring(location.origin.length+location.pathname.length)=='ELT'){
+}else if(location.href.substring(location.origin.length+location.pathname.length)=='#ELT'){
    theme='Embarrassed-Light-Theme';
-}else if(location.href.substring(location.origin.length+location.pathname.length)=='VSL'){
+}else if(location.href.substring(location.origin.length+location.pathname.length)=='#VSL'){
    theme='vs-light';
-}else if(location.href.substring(location.origin.length+location.pathname.length)=='VSD'){
+}else if(location.href.substring(location.origin.length+location.pathname.length)=='#VSD'){
    theme='vs-dark';
-}else if(location.href.substring(location.origin.length+location.pathname.length)=='HCD'){
+}else if(location.href.substring(location.origin.length+location.pathname.length)=='#HCD'){
    theme='hc-dark';
 }else{
    theme='vs-dark';
